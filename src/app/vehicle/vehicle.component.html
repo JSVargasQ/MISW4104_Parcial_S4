@@ -17,3 +17,10 @@
   </tr>
   </tbody>
 </table>
+
+<!-- Count by make -->
+<div>
+  <div *ngFor="let make of object.keys(countMake)">
+    Total {{make}}: {{countMake[make]}}
+  </div>
+</div>
