@@ -60,12 +60,7 @@ describe('VehicleComponent', () => {
     const tableElement = fixture.nativeElement.querySelector('table');
     expect(tableElement).toBeTruthy();
   });
-
-  it('component has a table', () => {
-    const tableElement = fixture.nativeElement.querySelector('table');
-    expect(tableElement).toBeTruthy();
-  });
-
+  
   it('should have a header row', () => {
     const headerRow = fixture.nativeElement.querySelector('thead tr');
     expect(headerRow).toBeTruthy();
