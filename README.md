@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
+## Explicación
+[Commits rama Develop](https://github.com/JSVargasQ/MISW4104_Parcial_S4/commits/develop/)
+
+https://github.com/JSVargasQ/MISW4104_Parcial_S4/assets/42383191/6c6ebc29-039a-4f9e-9ebf-8b9cb5295de9
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
