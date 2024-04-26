@@ -46,6 +46,5 @@ export class VehicleComponent implements OnInit {
     });
 
     this.countMake = countMake;
-    console.log(countMake);
   }
 }
