@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {environment} from "../environments/environment";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  // Attributes
   title = 'TuSegundazo';
+
+  cellPhone: string;
+  email: string;
+  target: string;
+
+  constructor() {
+    this.cellPhone = environment.cellPhone;
+    this.email = environment.email;
+    this.target = environment.target;
+  }
 }

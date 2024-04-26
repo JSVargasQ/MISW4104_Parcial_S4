@@ -1,1 +1,19 @@
-<p>vehicle works!</p>
+<!-- List of vehicles -->
+<table class="table">
+  <thead class="table-dark">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Marca</th>
+    <th scope="col">Línea</th>
+    <th scope="col">Modelo</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let vehicle of vehicles; let i = index">
+    <th scope="row">{{i+1}}</th>
+    <td>{{vehicle.marca}}</td>
+    <td>{{vehicle.linea}}</td>
+    <td>{{vehicle.modelo}}</td>
+  </tr>
+  </tbody>
+</table>
